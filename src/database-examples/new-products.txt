@@ -1,0 +1,3 @@
+Shoes,45.00
+Bicycle,150.00
+Computer,600.00

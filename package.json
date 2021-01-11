@@ -1,0 +1,38 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "Showing how to build apps with Node.js",
+  "main": "fibonacci.js",
+  "scripts": {
+    "start": "node hosted-server.js",
+    "say-hello": "echo 'hello everyone!'",
+    "fib": "node ./fibonacci.js",
+    "both": "npm run say-hello && npm run fib",
+    "create-file": "mkdir src && touch src/my-file.txt && echo 'Text!' > src/my-file.txt"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "keywords": [
+    "fibonacci"
+  ],
+  "author": "Shaun Wassell",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.3",
+    "colorful-log-sw": "^1.0.1",
+    "express": "^4.17.1",
+    "koa": "^2.13.0",
+    "mongodb": "^3.6.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^3.0.5",
+    "socket.io-client": "^3.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "nodemon": "^2.0.6"
+  }
+}
